@@ -19,9 +19,9 @@ public static class EventDef {
 }
 ```
 
-### Triggering events
+### Registering to events
 
-You can trigger events with no arguments, int, string or objects.
+You can register to events with no arguments or with int, string or object argument.
 
 The example bellow shows a class registering for multiple types of events:
 
@@ -60,6 +60,8 @@ public class EventTest : MonoBehaviour
     }
 }
 ```
+
+### Triggering events
 
 To trigger those events, you can call the Trigger or TriggerObj method on EventManager
 
